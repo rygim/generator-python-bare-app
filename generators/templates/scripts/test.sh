@@ -8,4 +8,4 @@ cd $TOP_DIR
 
 source $VIRTUALENV_DIR/bin/activate
 
-python main.py
+python -m pytest tests
